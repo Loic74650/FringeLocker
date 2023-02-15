@@ -2,7 +2,7 @@
 <export version="E">
   <design>
     <source>C:\Users\USER\Documents\GitHub\FringeLocker\FringeLocker\FringeLocker.kicad_sch</source>
-    <date>10/02/2023 23:21:33</date>
+    <date>13/02/2023 12:21:49</date>
     <tool>Eeschema (6.0.11)</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -25,31 +25,58 @@
   </design>
   <components>
     <comp ref="C1">
-      <value>1uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
+      <value>160pF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
       <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000063e6f616</tstamps>
-    </comp>
-    <comp ref="C2">
-      <value>1uF</value>
-      <footprint>Capacitor_THT:CP_Radial_D5.0mm_P2.00mm</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000063e707c7</tstamps>
-    </comp>
-    <comp ref="C3">
-      <value>1.6nF</value>
-      <footprint>Capacitor_THT:CP_Radial_Tantal_D4.5mm_P5.00mm</footprint>
-      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063ebfe0c</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>1.6nF</value>
+      <footprint>Capacitor_SMD:C_0603_1608Metric_Pad1.08x0.95mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>050e0e4f-b942-4ffd-a59a-db45b2745870</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>16nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b6d5b2d3-ae65-4785-8aeb-7e7dea1003f8</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>160nF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>56a1227f-0bc7-4547-a3bc-1919c9a89ac5</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f74662b7-8b7d-429e-8acd-aff4f3d01713</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>1uF</value>
+      <footprint>Capacitor_SMD:C_0201_0603Metric_Pad0.64x0.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="C" description="Unpolarized capacitor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>00000000-0000-0000-0000-000063e707c7</tstamps>
     </comp>
     <comp ref="D1">
       <value>BPW34</value>
@@ -57,7 +84,7 @@
       <datasheet>http://www.vishay.com/docs/81521/bpw34.pdf</datasheet>
       <libsource lib="Sensor_Optical" part="BPW34" description="Silicon PIN Photodiode"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>ac0aa4ae-94d8-4291-b223-afb5eabf93ed</tstamps>
     </comp>
@@ -67,142 +94,187 @@
       <datasheet>http://www.vishay.com/docs/81521/bpw34.pdf</datasheet>
       <libsource lib="Sensor_Optical" part="BPW34" description="Silicon PIN Photodiode"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>5c06ce53-489f-4439-ba7c-e1fe08cf7be4</tstamps>
     </comp>
+    <comp ref="H1">
+      <value>KeysTone_AAA</value>
+      <footprint>BatteryHolder:Keystone_AAA</footprint>
+      <libsource lib="My_Library" part="KeysTone_AAA" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b95e219-960b-4744-9aa1-f66d47760742</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>KeysTone_AAA</value>
+      <footprint>BatteryHolder:Keystone_AAA</footprint>
+      <libsource lib="My_Library" part="KeysTone_AAA" description=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>35243592-df7a-4229-a582-72dddcd3df30</tstamps>
+    </comp>
     <comp ref="J1">
-      <value>Conn_Piezo</value>
-      <footprint>Connector:Banana_Jack_2Pin</footprint>
+      <value>OUT</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical</footprint>
       <libsource lib="Connector" part="Conn_01x02_Male" description="Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063e8bba6</tstamps>
     </comp>
     <comp ref="R1">
       <value>100</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063e8d8eb</tstamps>
     </comp>
     <comp ref="R2">
       <value>22K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063e88937</tstamps>
     </comp>
     <comp ref="R3">
-      <value>1K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ab22a256-6871-46d8-bba1-db51f1048842</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063e87334</tstamps>
     </comp>
-    <comp ref="R4">
+    <comp ref="R5">
       <value>100K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>90e39e1a-d943-4c5e-beff-ab4edabea9a5</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>1M</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063ec2a89</tstamps>
     </comp>
-    <comp ref="R5">
-      <value>10K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000063e5e3b6</tstamps>
-    </comp>
-    <comp ref="R6">
-      <value>10K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
-      <libsource lib="Device" part="R" description="Resistor"/>
-      <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
-      <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000063ed81da</tstamps>
-    </comp>
     <comp ref="R7">
-      <value>4.7K</value>
-      <footprint>Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal</footprint>
+      <value>100K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
       <libsource lib="Device" part="R" description="Resistor"/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000063ed1e03</tstamps>
+      <tstamps>4642b14b-b915-4260-81f8-51cbec113774</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>10K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c9dbf2d7-29a7-4a9c-85c6-aca8df795faf</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>1K</value>
+      <footprint>Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27f2faaf-6b34-499c-a17d-980ff616b7cc</tstamps>
     </comp>
     <comp ref="RV1">
       <value>10K</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386F_Vertical</footprint>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical</footprint>
       <libsource lib="FringeLocker-rescue" part="R_POT-Device" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063e8074e</tstamps>
     </comp>
     <comp ref="RV2">
-      <value>10K</value>
-      <footprint>Potentiometer_THT:Potentiometer_Bourns_3386F_Vertical</footprint>
+      <value>100K</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3266W_Vertical</footprint>
       <libsource lib="FringeLocker-rescue" part="R_POT-Device" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamps>00000000-0000-0000-0000-000063ed29b8</tstamps>
     </comp>
-    <comp ref="U1">
-      <value>TL072</value>
-      <footprint>Package_SO:SOIC-8_3.9x4.9mm_P1.27mm</footprint>
-      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
-      <libsource lib="Amplifier_Operational" part="TL072" description="Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8"/>
+    <comp ref="SW1">
+      <value>NIDEC_SS-10-16</value>
+      <footprint>BatteryHolder:NIDEC_SS-10-16</footprint>
+      <libsource lib="My_Library" part="NIDEC_SS-10-16" description=""/>
       <property name="Sheetname" value=""/>
-      <property name="Sheetfile" value="C:/Users/USER/Documents/GitHub/FringeLocker/FringeLocker/FringeLocker.sch"/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
       <sheetpath names="/" tstamps="/"/>
-      <tstamps>00000000-0000-0000-0000-000063e73dd9 00000000-0000-0000-0000-000063e60866 00000000-0000-0000-0000-000063e55ead</tstamps>
+      <tstamps>ee3bfe9b-f251-4932-a7af-60b3af653a5a</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>TL074</value>
+      <footprint>Package_SO:SO-14_3.9x8.65mm_P1.27mm</footprint>
+      <datasheet>http://www.ti.com/lit/ds/symlink/tl071.pdf</datasheet>
+      <libsource lib="Amplifier_Operational" part="TL074" description="Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="FringeLocker.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ca2bcfeb-ff8a-409e-8645-effeaee7c954 68777a79-0a55-4ff7-a207-ed9f2241cc41 572fbcd7-0fc3-466c-93a3-87e0198c5477 222420ee-64d2-4366-a3be-d67d54e1a642</tstamps>
     </comp>
   </components>
   <libparts>
-    <libpart lib="Amplifier_Operational" part="TL072">
-      <description>Dual Low-Noise JFET-Input Operational Amplifiers, DIP-8/SOIC-8</description>
+    <libpart lib="Amplifier_Operational" part="TL074">
+      <description>Quad Low-Noise JFET-Input Operational Amplifiers, DIP-14/SOIC-14</description>
       <docs>http://www.ti.com/lit/ds/symlink/tl071.pdf</docs>
       <footprints>
-        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>SOIC*3.9x8.7mm*P1.27mm*</fp>
         <fp>DIP*W7.62mm*</fp>
-        <fp>TO*99*</fp>
-        <fp>OnSemi*Micro8*</fp>
-        <fp>TSSOP*3x3mm*P0.65mm*</fp>
-        <fp>TSSOP*4.4x3mm*P0.65mm*</fp>
-        <fp>MSOP*3x3mm*P0.65mm*</fp>
-        <fp>SSOP*3.9x4.9mm*P0.635mm*</fp>
-        <fp>LFCSP*2x2mm*P0.5mm*</fp>
-        <fp>*SIP*</fp>
-        <fp>SOIC*5.3x6.2mm*P1.27mm*</fp>
+        <fp>TSSOP*4.4x5mm*P0.65mm*</fp>
+        <fp>SSOP*5.3x6.2mm*P0.65mm*</fp>
+        <fp>MSOP*3x3mm*P0.5mm*</fp>
       </footprints>
       <fields>
         <field name="Reference">U</field>
-        <field name="Value">TL072</field>
+        <field name="Value">TL074</field>
         <field name="Datasheet">http://www.ti.com/lit/ds/symlink/tl071.pdf</field>
       </fields>
       <pins>
         <pin num="1" name="" type="output"/>
         <pin num="2" name="-" type="input"/>
         <pin num="3" name="+" type="input"/>
-        <pin num="4" name="V-" type="power_in"/>
+        <pin num="4" name="V+" type="power_in"/>
         <pin num="5" name="+" type="input"/>
         <pin num="6" name="-" type="input"/>
         <pin num="7" name="" type="output"/>
-        <pin num="8" name="V+" type="power_in"/>
+        <pin num="8" name="" type="output"/>
+        <pin num="9" name="-" type="input"/>
+        <pin num="10" name="+" type="input"/>
+        <pin num="11" name="V-" type="power_in"/>
+        <pin num="12" name="+" type="input"/>
+        <pin num="13" name="-" type="input"/>
+        <pin num="14" name="" type="output"/>
       </pins>
     </libpart>
     <libpart lib="Connector" part="Conn_01x02_Male">
@@ -267,6 +339,32 @@
         <pin num="3" name="3" type="passive"/>
       </pins>
     </libpart>
+    <libpart lib="My_Library" part="KeysTone_AAA">
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">KeysTone_AAA</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="V" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="My_Library" part="NIDEC_SS-10-16">
+      <fields>
+        <field name="Reference">SW</field>
+        <field name="Value">NIDEC_SS-10-16</field>
+      </fields>
+      <pins>
+        <pin num="1" name="6" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="5" type="passive"/>
+        <pin num="4" name="4" type="passive"/>
+        <pin num="5" name="3" type="passive"/>
+        <pin num="6" name="2" type="passive"/>
+        <pin num="7" name="C" type="passive"/>
+        <pin num="8" name="1" type="passive"/>
+      </pins>
+    </libpart>
     <libpart lib="Sensor_Optical" part="BPW34">
       <description>Silicon PIN Photodiode</description>
       <docs>http://www.vishay.com/docs/81521/bpw34.pdf</docs>
@@ -298,74 +396,114 @@
     <library logical="FringeLocker-rescue">
       <uri>C:\Users\USER\Documents\GitHub\FringeLocker\FringeLocker/FringeLocker-rescue.lib</uri>
     </library>
+    <library logical="My_Library">
+      <uri>C:\Users\USER\Documents\KiCad\6.0\symbols\My_Library.kicad_sym</uri>
+    </library>
     <library logical="Sensor_Optical">
       <uri>C:\Program Files\KiCad\6.0\share\kicad\symbols\/Sensor_Optical.kicad_sym</uri>
     </library>
   </libraries>
   <nets>
     <net code="1" name="+15V">
-      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
       <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
-      <node ref="R7" pin="2" pintype="passive"/>
-      <node ref="U1" pin="8" pinfunction="V+" pintype="power_in"/>
+      <node ref="H1" pin="2" pinfunction="V" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U1" pin="11" pinfunction="V-" pintype="power_in"/>
     </net>
     <net code="2" name="-15V">
-      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
       <node ref="D2" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
-      <node ref="U1" pin="4" pinfunction="V-" pintype="power_in"/>
+      <node ref="H2" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="U1" pin="4" pinfunction="V+" pintype="power_in"/>
     </net>
     <net code="3" name="GND">
-      <node ref="C1" pin="2" pintype="passive"/>
-      <node ref="C2" pin="2" pintype="passive"/>
-      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="H1" pin="1" pinfunction="GND" pintype="passive"/>
+      <node ref="H2" pin="2" pinfunction="V" pintype="passive"/>
+      <node ref="U1" pin="10" pinfunction="+" pintype="input"/>
       <node ref="U1" pin="3" pinfunction="+" pintype="input"/>
       <node ref="U1" pin="5" pinfunction="+" pintype="input"/>
     </net>
-    <net code="4" name="Net-(C3-Pad1)">
+    <net code="4" name="Net-(C1-Pad1)">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="C2" pin="1" pintype="passive"/>
       <node ref="C3" pin="1" pintype="passive"/>
-      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+      <node ref="R9" pin="2" pintype="passive"/>
       <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
       <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
       <node ref="U1" pin="1" pintype="output"/>
     </net>
-    <net code="5" name="Net-(C3-Pad2)">
-      <node ref="C3" pin="2" pintype="passive"/>
-      <node ref="R4" pin="1" pintype="passive"/>
-      <node ref="R5" pin="2" pintype="passive"/>
+    <net code="5" name="Net-(C1-Pad2)">
+      <node ref="C1" pin="2" pintype="passive"/>
       <node ref="R6" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="8" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="6" name="Net-(C2-Pad2)">
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="6" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="7" name="Net-(C3-Pad2)">
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="5" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="8" name="Net-(C4-Pad2)">
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="SW1" pin="4" pinfunction="4" pintype="passive"/>
+    </net>
+    <net code="9" name="Net-(D1-Pad2)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="SW1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="SW1" pin="7" pinfunction="C" pintype="passive"/>
       <node ref="U1" pin="2" pinfunction="-" pintype="input"/>
     </net>
-    <net code="6" name="Net-(J1-Pad1)">
+    <net code="10" name="Net-(J1-Pad1)">
       <node ref="J1" pin="1" pinfunction="Pin_1" pintype="passive"/>
       <node ref="R1" pin="2" pintype="passive"/>
     </net>
-    <net code="7" name="Net-(R1-Pad1)">
+    <net code="11" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2" pinfunction="Pin_2" pintype="passive"/>
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="U1" pin="8" pintype="output"/>
+    </net>
+    <net code="12" name="Net-(R1-Pad1)">
       <node ref="R1" pin="1" pintype="passive"/>
       <node ref="R2" pin="2" pintype="passive"/>
       <node ref="U1" pin="7" pintype="output"/>
     </net>
-    <net code="8" name="Net-(R2-Pad1)">
+    <net code="13" name="Net-(R2-Pad1)">
       <node ref="R2" pin="1" pintype="passive"/>
-      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="R4" pin="2" pintype="passive"/>
       <node ref="U1" pin="6" pinfunction="-" pintype="input"/>
     </net>
-    <net code="9" name="Net-(R3-Pad1)">
+    <net code="14" name="Net-(R3-Pad1)">
       <node ref="R3" pin="1" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+      <node ref="U1" pin="9" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="15" name="Net-(R4-Pad1)">
+      <node ref="R4" pin="1" pintype="passive"/>
       <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
     </net>
-    <net code="10" name="Net-(R5-Pad1)">
-      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
-      <node ref="D2" pin="1" pinfunction="K" pintype="passive"/>
+    <net code="16" name="Net-(R5-Pad1)">
       <node ref="R5" pin="1" pintype="passive"/>
-    </net>
-    <net code="11" name="Net-(R6-Pad2)">
-      <node ref="R6" pin="2" pintype="passive"/>
       <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
     </net>
-    <net code="12" name="Net-(R7-Pad1)">
-      <node ref="R7" pin="1" pintype="passive"/>
-      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+    <net code="17" name="unconnected-(SW1-Pad1)">
+      <node ref="SW1" pin="1" pinfunction="6" pintype="passive+no_connect"/>
+    </net>
+    <net code="18" name="unconnected-(SW1-Pad3)">
+      <node ref="SW1" pin="3" pinfunction="5" pintype="passive+no_connect"/>
     </net>
   </nets>
 </export>

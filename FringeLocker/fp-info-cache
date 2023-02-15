@@ -1,4 +1,4 @@
-20942278118196614
+20950659514668800
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -321,6 +321,41 @@ battery CR-3032 coin cell vertical
 0
 2
 2
+BatteryHolder
+Keystone_AAA
+
+
+0
+4
+4
+BatteryHolder
+Keystone_AAA_+
+
+
+0
+2
+2
+BatteryHolder
+Keystone_AAA_-
+
+
+0
+2
+2
+BatteryHolder
+NIDEC_SS-10-16
+8-lead though-hole mounted DIP package, row spacing 7.62 mm (300 mils), LongPads
+THT DIP DIL PDIP 2.54mm 7.62mm 300mil LongPads
+0
+8
+8
+BatteryHolder
+SlideSwitchASE_DPDT
+8-Lead Plastic Stretched Small Outline (SSO/Stretched SO), see https://www.vishay.com/docs/83831/lh1533ab.pdf
+SSO Stretched SO SOIC Pitch 2.54
+0
+6
+6
 Button_Switch_Keyboard
 SW_Cherry_MX_1.00u_PCB
 Cherry MX keyswitch, 1.00u, PCB mount, http://cherryamericas.com/wp-content/uploads/2014/12/mx_cat.pdf
