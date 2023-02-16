@@ -7,7 +7,7 @@
 Two photodiodes sample the interference fringes and detect any movement of those. 
 A low noise amplifier and feedback loop drive a mirror which is placed on a piezo transducer in order to move one arm of the interferometer and compensate for the detected fringe movements
 
-# Setup
+## Setup
 This version of FringeLocker is powered by two MN21/A23 12V batteries. Alternatively connector J3 on the board can be used to power the board with an external supply of
 your choice (remove the batteries first!). The board accepts supply voltages up to +/-18Volts. 
 Slider switch SW2 switched ON/OFF the board. A small 1mA Led (D3) indicates that the board is powered. 
