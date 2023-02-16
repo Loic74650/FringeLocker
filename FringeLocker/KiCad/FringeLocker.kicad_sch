@@ -4,6 +4,13 @@
 
   (paper "A4")
 
+  (title_block
+    (title "Fringer Locker")
+    (date "2023-02-10")
+    (rev "V1.0")
+    (company "©Loic74650")
+  )
+
   (lib_symbols
     (symbol "Amplifier_Operational:TL074" (pin_names (offset 0.127)) (in_bom yes) (on_board yes)
       (property "Reference" "U" (id 0) (at 0 5.08 0)
