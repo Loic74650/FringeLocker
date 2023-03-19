@@ -35,5 +35,5 @@ Revert to the previous gain setting in order to stop the oscillation. You can th
 ## Bugs
 An unpolarized 100nF capacitor needs to be manually added in parallel with R2 in order to create an active low pass filter and prevent the feedback loop from oscillating
 
-
- 
+## Credits
+Thanks to Phil Hobbs for his help on the schematic design
