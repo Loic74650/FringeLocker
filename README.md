@@ -2,6 +2,7 @@
 ## Intro
  FringeLocker, as its name indicates, is an electronic system designed to lock interference fringes of an optical interferometer or a holography recording setup.
  The purpose of locking an interferometer is usually to stabilize unstable interference fringes due to mechanical vibrations or thermal drifts.
+ Demo video: https://youtu.be/0IrlpE1sPkQ
  
  <p align="center"> <img src="/FringeLocker/Photos/Back.jpg" width="702" title="Overview"> </p> <br /><br />
  <p align="center"> <img src="/FringeLocker/Photos/Schematic.jpg" width="702" title="Overview"> </p> <br /><br />
