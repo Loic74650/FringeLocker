@@ -4,6 +4,7 @@
  The purpose of locking an interferometer is usually to stabilize unstable interference fringes due to mechanical vibrations or thermal drifts.
  
  <p align="center"> <img src="/FringeLocker/Photos/Back.jpg" width="702" title="Overview"> </p> <br /><br />
+ <p align="center"> <img src="/FringeLocker/Photos/Schematic.jpg" width="702" title="Overview"> </p> <br /><br />
  
 ## Working principle
 Two photodiodes sample the interference fringes and detect any movement of those. 
@@ -29,6 +30,9 @@ SW1 is a rotary switch which selects a preamplification of the photodiodes signa
 Place the photodiodes within interference fringes of the interferometer. Adjust the interference fringes spacing so that their spacing is approximately 15mm (twice the spacing between the photodiodes). 
 Power the board and start with the lowest gain on the PreScaler switch SW1 and move to larger gains incrementally until the feedback loop starts oscillating.
 Revert to the previous gain setting in order to stop the oscillation. You can then fine adjust the loop gain RV1 by increasing it slowly until the loop starts oscillating, then reverting a bit to stop the oscillation.
+
+## Bugs
+An unpolarized 100nF capacitor needs to be manually added in parallel with R2 in order to create an active low pass filter and prevent the feedback loop from oscillating
 
 
  
