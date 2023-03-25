@@ -4,8 +4,9 @@
  The purpose of locking an interferometer is usually to stabilize unstable interference fringes due to mechanical vibrations or thermal drifts.<br />
  Demo video: https://youtu.be/0IrlpE1sPkQ
  
- <p align="center"> <img src="/FringeLocker/Photos/Back.jpg" width="702" title="Overview"> </p> <br /><br />
- <p align="center"> <img src="/FringeLocker/Photos/Front.jpg" width="702" title="Overview"> </p> <br /><br />
+ <p align="center"> <img src="/FringeLocker/Photos/Back.jpg" width="702" title="Overview"> </p> <br />
+ <p align="center"> <img src="/FringeLocker/Photos/Front_bare.jpg" width="702" title="Overview"> </p> <br />
+ <p align="center"> <img src="/FringeLocker/Photos/Front.jpg" width="702" title="Overview"> </p> <br />
  <p align="center"> <img src="/FringeLocker/Photos/Schematic.jpg" width="702" title="Overview"> </p> <br /><br />
  
 ## Working principle
