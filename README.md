@@ -16,7 +16,7 @@ A low noise amplifier and feedback loop drive a mirror which is placed on a piez
 ## Setup
 This version of FringeLocker is powered by two MN21/A23 12V batteries. Alternatively connector J3 on the board can be used to power the board with an external supply of
 your choice (remove the batteries first!). The board accepts supply voltages up to +/-18Volts and so currently I am using two 9V batteries in series for each voltage ramp in order to increase lifetime on battery.
-The photodiodes need to be masked of, leaving just one slit 0.5mm wide per photodiode. See image in the photos folder.
+The photodiodes need to be masked of, leaving just one slit 0.5mm wide per photodiode. See image in the photos folder.<br />
 Slider switch SW2 switched ON/OFF the board.  
 There are three adjustments to be performed on the board. 
 
