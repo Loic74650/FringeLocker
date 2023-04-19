@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "FringeLocker-rescue")(type "Legacy")(uri "${KIPRJMOD}/FringeLocker-rescue.lib")(options "")(descr ""))
+  (lib (name "Bourns3310")(type "KiCad")(uri "${KIPRJMOD}/Bourns3310.kicad_sym")(options "")(descr ""))
 )

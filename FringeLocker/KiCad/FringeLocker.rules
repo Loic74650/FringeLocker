@@ -11,7 +11,7 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 643)
+    (start_pass_no 536)
     (layer_rule F.Cu
       (active on)
       (preferred_direction horizontal)
@@ -53,10 +53,11 @@
     "kicad_default" "Via[0-1]_800:400_um-kicad_default"
   )
   (class default
-    GND "Net-(R1-Pad1)" "Net-(J1-Pad1)" "Net-(R2-Pad1)" "Net-(R3-Pad1)" "Net-(C3-Pad2)" "Net-(J1-Pad2)" "Net-(R5-Pad1)"
-    "Net-(R4-Pad1)" "Net-(C1-Pad2)" +15V "-15V" "Net-(C1-Pad1)" "Net-(C2-Pad2)" "Net-(C4-Pad2)" "Net-(D1-Pad2)"
-    "unconnected-(SW1-Pad1)" "unconnected-(SW1-Pad3)" "unconnected-(U1-Pad12)" "unconnected-(U1-Pad13)" "unconnected-(U1-Pad14)" "unconnected-(SW1-Pad7)" "Net-(BH1-Pad1)" "Net-(BH2-Pad3)"
-    "unconnected-(SW2-Pad1)" "unconnected-(SW2-Pad4)" "Net-(D3-Pad2)"
+    GND "Net-(R2-Pad2)" "Net-(J1-Pad1)" "Net-(R2-Pad1)" "Net-(R3-Pad1)" "Net-(C3-Pad2)" "Net-(J1-Pad2)" "Net-(R5-Pad1)"
+    "Net-(R4-Pad1)" "Net-(C1-Pad2)" +15V "-15V" "Net-(C1-Pad1)" "Net-(C3-Pad1)" "Net-(R7-Pad2)" "Net-(R8-Pad1)"
+    "unconnected-(SW1-Pad1)" "Net-(R8-Pad2)" "Net-(R11-Pad2)" "Net-(R11-Pad1)" "Net-(C2-Pad1)" "unconnected-(U2-Pad5)" "unconnected-(U2-Pad6)" "unconnected-(U2-Pad7)"
+    "unconnected-(U2-Pad8)" "unconnected-(U2-Pad9)" "Net-(D3-Pad2)" "unconnected-(U2-Pad10)" "unconnected-(U2-Pad12)" "unconnected-(U2-Pad13)" "unconnected-(U2-Pad14)" "Net-(J3-Pad1)"
+    "Net-(J3-Pad3)" "unconnected-(SW1-Pad4)"
     (clearance_class default)
     (via_rule default)
     (rule
